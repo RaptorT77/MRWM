@@ -1,0 +1,10 @@
+{
+  "name": "mewm-xperts-group",
+  "version": "1.0.0",
+  "description": "MEWM SA de CV — X-Perts Group. Welding Engineering Solutions.",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve ."
+  }
+}
