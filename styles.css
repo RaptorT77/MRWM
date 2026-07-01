@@ -1551,6 +1551,15 @@ button {
     font-size: clamp(2rem, 7vw, 3rem);
   }
 
+  .hero__description {
+    font-size: var(--fs-base);
+  }
+
+  .hero__logo {
+    width: 280px;
+    margin-bottom: var(--space-xl);
+  }
+
   .hero__stats {
     flex-wrap: wrap;
     gap: var(--space-lg);
@@ -1618,6 +1627,10 @@ button {
 
   .hero__stats {
     flex-direction: column;
+  }
+
+  .hero__logo {
+    width: 220px;
   }
 
   .gallery__grid {
