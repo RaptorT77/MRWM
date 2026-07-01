@@ -446,7 +446,10 @@ button {
   position: relative;
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: calc(var(--header-height) + var(--space-xl));
+  padding-bottom: var(--space-2xl);
   overflow: hidden;
   background-color: #0A0A0A;
 }
@@ -474,7 +477,7 @@ button {
 .hero__content {
   position: relative;
   z-index: 3;
-  padding-top: var(--header-height);
+  width: 100%;
   max-width: 1000px;
   display: flex;
   flex-direction: column;
